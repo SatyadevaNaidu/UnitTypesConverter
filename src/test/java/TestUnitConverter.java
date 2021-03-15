@@ -20,6 +20,6 @@ public class TestUnitConverter {
     @Test
     //test case by Jeevan Sai Koushik
     public void test_weight_conveter() {
-        assertEquals(18,uc.weight_converter(5));
+        assertEquals(11,uc.weight_converter(5));
     }
 }
