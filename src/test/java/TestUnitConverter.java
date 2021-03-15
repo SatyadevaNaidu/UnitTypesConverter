@@ -14,24 +14,24 @@ public class TestUnitConverter {
     @Test
     //test case by SatyadevaNaidu
     public void test_distance_conveter() {
-        assertEquals(3, uc.distace_converter(2));
+        assertEquals(30, uc.distace_converter(2));
     }
 
     @Test
     //test case by Jeevan Sai Koushik
     public void test_weight_conveter() {
-        assertEquals(11,uc.weight_converter(5));
+        assertEquals(10,uc.weight_converter(5));
     }
 
     @Test
     //test case written by Aravind
     public void test_temperature_conveter() {
-        assertEquals(68,uc.temperature_converter(20));
+        assertEquals(60,uc.temperature_converter(20));
     }
 
     @Test
     //case of testing by syam kumar
     public void test_volume_conveter() {
-        assertEquals(1,uc.volume_converter(4));
+        assertEquals(10,uc.volume_converter(4));
     }
 }
