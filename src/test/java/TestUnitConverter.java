@@ -22,4 +22,10 @@ public class TestUnitConverter {
     public void test_weight_conveter() {
         assertEquals(11,uc.weight_converter(5));
     }
+
+    @Test
+    //test case written by Aravind
+    public void test_temperature_conveter() {
+        assertEquals(20,uc.temperature_converter(20));
+    }
 }

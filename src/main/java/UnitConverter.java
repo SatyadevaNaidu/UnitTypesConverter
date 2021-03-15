@@ -11,4 +11,8 @@ public class UnitConverter {
         double pound = 2.2 * kg;
         return (int)pound;
     }
+    public int temperature_converter(int centi){
+        double fahranheit = (centi*1.8) + 32;
+        return (int) fahranheit;
+    }
 }
