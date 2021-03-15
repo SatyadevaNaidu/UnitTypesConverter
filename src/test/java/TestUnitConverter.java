@@ -32,6 +32,6 @@ public class TestUnitConverter {
     @Test
     //case of testing by syam kumar
     public void test_volume_conveter() {
-        assertEquals(10,uc.volume_converter(4));
+        assertEquals(1,uc.volume_converter(4));
     }
 }
