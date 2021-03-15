@@ -26,6 +26,6 @@ public class TestUnitConverter {
     @Test
     //test case written by Aravind
     public void test_temperature_conveter() {
-        assertEquals(20,uc.temperature_converter(20));
+        assertEquals(68,uc.temperature_converter(20));
     }
 }
