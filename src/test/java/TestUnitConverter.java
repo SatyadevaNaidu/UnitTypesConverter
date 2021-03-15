@@ -28,4 +28,10 @@ public class TestUnitConverter {
     public void test_temperature_conveter() {
         assertEquals(68,uc.temperature_converter(20));
     }
+
+    @Test
+    //case of testing by syam kumar
+    public void test_volume_conveter() {
+        assertEquals(10,uc.volume_converter(4));
+    }
 }

@@ -15,4 +15,8 @@ public class UnitConverter {
         double fahranheit = (centi*1.8) + 32;
         return (int) fahranheit;
     }
+    public int volume_converter(int lt){
+        double gallons = lt/3.78541;
+        return (int) gallons;
+    }
 }
