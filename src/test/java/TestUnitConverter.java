@@ -16,4 +16,10 @@ public class TestUnitConverter {
     public void test_distance_conveter() {
         assertEquals(3, uc.distace_converter(2));
     }
+
+    @Test
+    //test case by Jeevan Sai Koushik
+    public void test_weight_conveter() {
+        assertEquals(18,uc.weight_converter(5));
+    }
 }
