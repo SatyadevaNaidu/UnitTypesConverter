@@ -19,4 +19,12 @@ public class TestUnitConverter {
     public void test_weight_converter() {
         assertEquals(11,uc.weight_converter(5));
     }
+    @Test
+    public void test_temperature_converter() {
+        assertEquals(68,uc.temperature_converter(20));
+    }
+    @Test
+    public void test_volume_converter() {
+        assertEquals(1,uc.volume_converter(4));
+    }
 }
