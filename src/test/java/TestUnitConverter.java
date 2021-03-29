@@ -15,4 +15,8 @@ public class TestUnitConverter {
     public void test_distance_converter(){
         assertEquals(3, uc.distance_converter(2));
     }
+    @Test
+    public void test_weight_converter() {
+        assertEquals(11,uc.weight_converter(5));
+    }
 }
