@@ -11,5 +11,27 @@ public class TestUnitConverter {
         uc =new UnitConverter();
     }
 
+    @Test
+    //test case by SatyadevaNaidu
+    public void test_distance_conveter() {
+        assertEquals(30, uc.distace_converter(2));
+    }
 
+    @Test
+    //test case by Jeevan Sai Koushik
+    public void test_weight_conveter() {
+        assertEquals(10,uc.weight_converter(5));
+    }
+
+    @Test
+    //test case written by Aravind
+    public void test_temperature_conveter() {
+        assertEquals(60,uc.temperature_converter(20));
+    }
+
+    @Test
+    //case of testing by syam kumar
+    public void test_volume_conveter() {
+        assertEquals(10,uc.volume_converter(4));
+    }
 }
