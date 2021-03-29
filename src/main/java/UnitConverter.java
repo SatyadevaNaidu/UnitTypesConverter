@@ -15,12 +15,12 @@ public class UnitConverter {
     }
     public int temperature_converter(int centi){
         double fahranheit = (centi*1.8) + 32;
-        //return (int) fahranheit;
-        return 0;
+        return (int) fahranheit;
+        //return 0;
     }
     public int volume_converter(int lt){
         double gallons = lt/3.78541;
-        //return (int) gallons;
-        return 0;
+        return (int) gallons;
+        //return 0;
     }
 }
