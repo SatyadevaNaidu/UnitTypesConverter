@@ -11,5 +11,8 @@ public class TestUnitConverter {
         uc =new UnitConverter();
     }
 
-
+    @Test
+    public void test_distance_converter(){
+        assertEquals(3, uc.distance_converter(2));
+    }
 }
