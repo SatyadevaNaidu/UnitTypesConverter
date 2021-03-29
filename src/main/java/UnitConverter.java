@@ -10,8 +10,8 @@ public class UnitConverter {
     }
     public int weight_converter(int kg){
         double pound = 2.2 * kg;
-        //return (int)pound;
-        return 0;
+        return (int)pound;
+        //return 0;
     }
     public int temperature_converter(int centi){
         double fahranheit = (centi*1.8) + 32;
