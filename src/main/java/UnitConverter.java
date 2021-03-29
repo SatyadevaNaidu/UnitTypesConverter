@@ -5,8 +5,8 @@ public class UnitConverter {
     }
     public int distance_converter(int km){
         double miles = km*1.6;
-        //return (int) miles;
-        return 0;
+        return (int) miles;
+        //return 0;
     }
     public int weight_converter(int kg){
         double pound = 2.2 * kg;
