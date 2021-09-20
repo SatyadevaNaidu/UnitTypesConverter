@@ -1,0 +1,1 @@
+The objective of this project is to set up a continuous integration (CI) environment that can build the software project and execute tests automatically using DevOps methodology. The environment triggers to developer code pushes and from push, it builds the system and performs integration testing.
